@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03c36290-310d-4333-880c-59867c99f884" name="Changes" comment="New Code">
+    <list default="true" id="03c36290-310d-4333-880c-59867c99f884" name="Changes" comment="updated html file">
       <change beforePath="$PROJECT_DIR$/src/SamplePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/SamplePage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,11 +154,20 @@
       <option name="project" value="LOCAL" />
       <updated>1729235404569</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated html file">
+      <option name="closed" value="true" />
+      <created>1729236382237</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729236382237</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New Code" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Code" />
+    <MESSAGE value="updated html file" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated html file" />
   </component>
 </project>
