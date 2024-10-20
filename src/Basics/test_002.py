@@ -13,10 +13,8 @@ def test_verify_login():
     current_url=driver.current_url
     assert current_url=="https://katalon-demo-cura.herokuapp.com/profile.php#login"
     username=driver.find_element(By.ID,"txt-username")
-    username.click()
     username.send_keys("John Doe")
     password=driver.find_element(By.ID,"txt-password")
-    password.click()
     password.send_keys("ThisIsNotAPassword")
     driver.find_element(By.ID,"btn-login").click()
 
