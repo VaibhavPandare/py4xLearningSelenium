@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03c36290-310d-4333-880c-59867c99f884" name="Changes" comment="updated html file">
+    <list default="true" id="03c36290-310d-4333-880c-59867c99f884" name="Changes" comment="updated test_002 file">
+      <change afterPath="$PROJECT_DIR$/src/19102024_Assignment/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/19102024_Assignment/test_registrationform.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Locators/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics/test_002.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basics/test_002.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +51,7 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "Python tests.Python tests for test_002.test_verify_login.executor": "Run",
+    "Python tests.Python tests for test_registrationform.test_verify_registrationpage.executor": "Debug",
     "Python.FirstProgram (2).executor": "Run",
     "Python.FirstProgram.executor": "Run",
     "Python.test_one.executor": "Run",
@@ -60,10 +63,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\py4xLearningSelenium\src" />
       <recent name="D:\py4xLearningSelenium\src\Basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_002.test_verify_login">
+  <component name="RunManager" selected="Python tests.Python tests for test_registrationform.test_verify_registrationpage">
     <configuration name="FirstProgram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py4xLearningSelenium" />
       <option name="ENV_FILES" value="" />
@@ -123,8 +127,24 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_registrationform.test_verify_registrationpage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="py4xLearningSelenium" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/19102024_Assignment" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_registrationform.test_verify_registrationpage&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_registrationform.test_verify_registrationpage" />
         <item itemvalue="Python tests.Python tests for test_002.test_verify_login" />
         <item itemvalue="Python.FirstProgram (2)" />
         <item itemvalue="Python.FirstProgram" />
@@ -179,12 +199,21 @@
       <option name="project" value="LOCAL" />
       <updated>1729237025511</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updated test_002 file">
+      <option name="closed" value="true" />
+      <created>1729421406307</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729421406307</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New Code" />
     <MESSAGE value="updated html file" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated html file" />
+    <MESSAGE value="updated test_002 file" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated test_002 file" />
   </component>
 </project>
