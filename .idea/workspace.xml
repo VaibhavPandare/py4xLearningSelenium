@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03c36290-310d-4333-880c-59867c99f884" name="Changes" comment="new file for 19th Oct Tasks">
-      <change afterPath="$PROJECT_DIR$/24102024_ChekboxAlertsRadiobuttons/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24102024_ChekboxAlertsRadiobuttons/test_task_24102024.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/22102024_CSS_Selector_Assignment/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/22102024_CSS_Selector_Assignment/max.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/22102024_CSS_Selector_Assignment/test_CSS_selector.py" afterDir="false" />
+    <list default="true" id="03c36290-310d-4333-880c-59867c99f884" name="Changes" comment="new file for 24th Oct">
+      <change afterPath="$PROJECT_DIR$/src/24102024_ChekboxAlertsRadiobuttons/test_alerts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/24102024_ChekboxAlertsRadiobuttons/test_exception_handle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/24102024_ChekboxAlertsRadiobuttons/test_exception_handle_one.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Selenium_Action_Class/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Selenium_Action_Class/test_Selenium_Actions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Selenium_Action_Class/test_actions_spicejet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/19102024_Assignment/test_invalid_error_message.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/19102024_Assignment/test_invalid_error_message.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +55,12 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "Python tests.Python tests for test_002.test_verify_login.executor": "Run",
     "Python tests.Python tests for test_CSS_selector.test_titles_prices.executor": "Run",
+    "Python tests.Python tests for test_Selenium_Actions.test_verify_action_keywords.executor": "Run",
+    "Python tests.Python tests for test_actions_spicejet.test_verify_actions_spicejet.executor": "Run",
+    "Python tests.Python tests for test_alerts.test_alerts_confirm.executor": "Run",
+    "Python tests.Python tests for test_alerts.test_alerts_prompts.executor": "Run",
+    "Python tests.Python tests for test_alerts.test_js_alerts.executor": "Run",
+    "Python tests.Python tests for test_exception_handle.test_exception_handle.executor": "Run",
     "Python tests.Python tests for test_invalid_error_message.test_validation_message.executor": "Run",
     "Python tests.Python tests for test_registrationform.test_verify_registrationpage.executor": "Debug",
     "Python tests.Python tests for test_task_24102024.test_buttonandcheckbox.executor": "Run",
@@ -74,96 +80,89 @@
       <recent name="D:\py4xLearningSelenium\src\Basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_task_24102024.test_buttonandcheckbox">
-    <configuration name="max" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="py4xLearningSelenium" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/22102024_CSS_Selector_Assignment" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/22102024_CSS_Selector_Assignment/max.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_CSS_selector.test_titles_prices" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_actions_spicejet.test_verify_actions_spicejet">
+    <configuration name="Python tests for test_Selenium_Actions.test_verify_action_keywords" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="py4xLearningSelenium" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/22102024_CSS_Selector_Assignment" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Selenium_Action_Class" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_CSS_selector.test_titles_prices&quot;" />
+      <option name="_new_target" value="&quot;test_Selenium_Actions.test_verify_action_keywords&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_invalid_error_message.test_validation_message" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_actions_spicejet.test_verify_actions_spicejet" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="py4xLearningSelenium" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/19102024_Assignment" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Selenium_Action_Class" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_invalid_error_message.test_validation_message&quot;" />
+      <option name="_new_target" value="&quot;test_actions_spicejet.test_verify_actions_spicejet&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_registrationform.test_verify_registrationpage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_alerts.test_alerts_prompts" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="py4xLearningSelenium" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/19102024_Assignment" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/24102024_ChekboxAlertsRadiobuttons" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_registrationform.test_verify_registrationpage&quot;" />
+      <option name="_new_target" value="&quot;test_alerts.test_alerts_prompts&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_task_24102024.test_buttonandcheckbox" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_exception_handle_one.test_exception_handle" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="py4xLearningSelenium" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/24102024_ChekboxAlertsRadiobuttons" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/24102024_ChekboxAlertsRadiobuttons" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_task_24102024.test_buttonandcheckbox&quot;" />
+      <option name="_new_target" value="&quot;test_exception_handle_one.test_exception_handle&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_exception_handle.test_exception_handle" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="py4xLearningSelenium" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/24102024_ChekboxAlertsRadiobuttons" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_exception_handle.test_exception_handle&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_task_24102024.test_buttonandcheckbox" />
-        <item itemvalue="Python tests.Python tests for test_CSS_selector.test_titles_prices" />
-        <item itemvalue="Python.max" />
-        <item itemvalue="Python tests.Python tests for test_invalid_error_message.test_validation_message" />
-        <item itemvalue="Python tests.Python tests for test_registrationform.test_verify_registrationpage" />
+        <item itemvalue="Python tests.Python tests for test_actions_spicejet.test_verify_actions_spicejet" />
+        <item itemvalue="Python tests.Python tests for test_Selenium_Actions.test_verify_action_keywords" />
+        <item itemvalue="Python tests.Python tests for test_exception_handle_one.test_exception_handle" />
+        <item itemvalue="Python tests.Python tests for test_exception_handle.test_exception_handle" />
+        <item itemvalue="Python tests.Python tests for test_alerts.test_alerts_prompts" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +238,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729513007200</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="new file for 24th Oct">
+      <option name="closed" value="true" />
+      <created>1730113850084</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730113850084</updated>
+    </task>
+    <task id="LOCAL-00009" summary="new file for 24th Oct">
+      <option name="closed" value="true" />
+      <created>1730113929248</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730113929248</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -248,6 +263,7 @@
     <MESSAGE value="updated test_002 file" />
     <MESSAGE value="new folder of 19th Oct Tasks" />
     <MESSAGE value="new file for 19th Oct Tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="new file for 19th Oct Tasks" />
+    <MESSAGE value="new file for 24th Oct" />
+    <option name="LAST_COMMIT_MESSAGE" value="new file for 24th Oct" />
   </component>
 </project>
